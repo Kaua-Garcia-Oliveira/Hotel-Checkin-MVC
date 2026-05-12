@@ -29,7 +29,7 @@
 
     <div class="stats-grid">
         <div class="stat-card">
-            <div class="number">🧑‍💼</div>
+            <div class="number"></div>
             <div class="label">Hóspedes cadastrados</div>
             <a href="${pageContext.request.contextPath}/hospedes" class="btn btn-primary" style="margin-top:12px;">Gerenciar</a>
         </div>
@@ -44,7 +44,7 @@
             <a href="${pageContext.request.contextPath}/reservas" class="btn btn-primary" style="margin-top:12px;">Gerenciar</a>
         </div>
         <div class="stat-card">
-            <div class="number">✅</div>
+            <div class="number"></div>
             <div class="label">Check-ins</div>
             <a href="${pageContext.request.contextPath}/checkins" class="btn btn-primary" style="margin-top:12px;">Gerenciar</a>
         </div>
