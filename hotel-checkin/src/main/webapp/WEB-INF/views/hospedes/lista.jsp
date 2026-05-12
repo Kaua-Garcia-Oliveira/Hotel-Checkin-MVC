@@ -35,7 +35,7 @@
 
     <div class="card">
         <div class="card-header">
-            <h2>🧑‍💼 Hóspedes</h2>
+            <h2> Hóspedes</h2>
             <a href="${pageContext.request.contextPath}/hospedes/novo" class="btn btn-warning">+ Novo Hóspede</a>
         </div>
         <div class="card-body">
