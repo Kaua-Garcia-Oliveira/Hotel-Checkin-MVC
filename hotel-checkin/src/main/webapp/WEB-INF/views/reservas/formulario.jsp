@@ -9,7 +9,7 @@
 </head>
 <body>
 <nav class="navbar">
-    <a class="navbar-brand" href="${pageContext.request.contextPath}/"><span>🏨</span> HotelSystem</a>
+    <a class="navbar-brand" href="${pageContext.request.contextPath}/"><span></span> HotelSystem</a>
     <ul class="navbar-nav">
         <li><a href="${pageContext.request.contextPath}/">Home</a></li>
         <li><a href="${pageContext.request.contextPath}/hospedes">Hóspedes</a></li>
@@ -22,7 +22,7 @@
 <div class="container">
     <div class="card" style="max-width:600px; margin:0 auto;">
         <div class="card-header">
-            <h2>${empty reserva ? '+ Nova Reserva' : '✏️ Editar Reserva'}</h2>
+            <h2>${empty reserva ? '+ Nova Reserva' : ' Editar Reserva'}</h2>
         </div>
         <div class="card-body">
             <c:if test="${not empty erro}"><div class="alert alert-danger">${erro}</div></c:if>
@@ -67,7 +67,7 @@
                 </div>
 
                 <div style="display:flex; gap:10px; margin-top:10px;">
-                    <button type="submit" class="btn btn-primary">💾 Salvar Reserva</button>
+                    <button type="submit" class="btn btn-primary"> Salvar Reserva</button>
                     <a href="${pageContext.request.contextPath}/reservas" class="btn btn-secondary">Cancelar</a>
                 </div>
             </form>
