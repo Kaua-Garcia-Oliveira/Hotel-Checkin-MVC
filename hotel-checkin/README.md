@@ -1,4 +1,4 @@
-# 🏨 Sistema de Check-in de Hotel
+#  Sistema de Check-in de Hotel
 
 **Aluno:** Kauã · **Matrícula:** 1203947  
 **Disciplina:** Aplicações para Internet  
@@ -6,13 +6,13 @@
 
 ---
 
-## 📋 Sobre o Projeto
+##  Sobre o Projeto
 
 Sistema web de gerenciamento de check-in de hotel desenvolvido em **Java** com padrão de arquitetura **MVC** (Model-View-Controller), utilizando **Servlet + JSP + MySQL**. O sistema permite gerenciar hóspedes, quartos, reservas e o processo completo de check-in e checkout.
 
 ---
 
-## 🏗️ Arquitetura MVC
+##  Arquitetura MVC
 
 ```
 hotel-checkin/
@@ -66,7 +66,7 @@ hotel-checkin/
 
 ---
 
-## ⚙️ Como Rodar
+##  Como Rodar
 
 ### Pré-requisitos
 - Java 11+
@@ -100,34 +100,34 @@ Copie `target/hotel-checkin.war` para a pasta `webapps/` do Tomcat.
 
 ---
 
-## ✅ Funcionalidades (CRUD completo)
+##  Funcionalidades (CRUD completo)
 
 ### Hóspedes
-- ➕ Cadastrar hóspede
-- 📋 Listar / buscar por nome
-- ✏️ Editar dados
-- 🗑️ Excluir
+-  Cadastrar hóspede
+-  Listar / buscar por nome
+-  Editar dados
+-  Excluir
 
 ### Quartos
-- ➕ Cadastrar quarto (Simples / Duplo / Suíte)
-- 📋 Listar com status de disponibilidade
-- ✏️ Editar
-- 🗑️ Excluir
+-  Cadastrar quarto (Simples / Duplo / Suíte)
+-  Listar com status de disponibilidade
+-  Editar
+-  Excluir
 
 ### Reservas
-- ➕ Criar reserva (hóspede + quarto + datas)
-- ✅ Confirmar reserva
-- ❌ Cancelar reserva
-- 📋 Listar todas
+-  Criar reserva (hóspede + quarto + datas)
+-  Confirmar reserva
+-  Cancelar reserva
+-  Listar todas
 
 ### Check-in / Checkout
-- ✅ Realizar check-in (a partir de reserva confirmada)
-- 🚪 Realizar checkout (libera o quarto automaticamente)
-- 📋 Listar check-ins ativos e histórico
+-  Realizar check-in (a partir de reserva confirmada)
+-  Realizar checkout (libera o quarto automaticamente)
+-  Listar check-ins ativos e histórico
 
 ---
 
-## 🔄 Fluxo do Sistema
+##  Fluxo do Sistema
 
 ```
 Cadastrar Hóspede → Cadastrar Quarto → Criar Reserva → Confirmar Reserva → Check-in → Checkout
@@ -135,7 +135,7 @@ Cadastrar Hóspede → Cadastrar Quarto → Criar Reserva → Confirmar Reserva 
 
 ---
 
-## 🛠️ Tecnologias
+##  Tecnologias
 
 - **Java 11** — linguagem principal
 - **Jakarta Servlet 5.0** — controllers (rotas HTTP)
@@ -148,8 +148,14 @@ Cadastrar Hóspede → Cadastrar Quarto → Criar Reserva → Confirmar Reserva 
 
 ---
 
-## 📌 Padrões Utilizados
+##  Padrões Utilizados
 
 - **MVC** — separação de responsabilidades (Model / View / Controller)
 - **DAO** (Data Access Object) — encapsula todo acesso ao banco
 - **Service Layer** — contém as regras de negócio (validações, fluxos)
+-- MVC — separação entre Model, View e Controller
+- DAO (Data Access Object) — responsável pelo acesso ao banco de dados
+- Service Layer — regras de negócio e validações do sistema
+- CRUD completo — cadastro, listagem, edição e remoção de dados
+- Arquitetura em camadas — organização do projeto para facilitar manutenção
+Projeto desenvolvido para fins acadêmicos na disciplina de Aplicações para Internet.
