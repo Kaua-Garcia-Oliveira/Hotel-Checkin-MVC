@@ -21,7 +21,7 @@
 <div class="container">
     <div class="card" style="margin-bottom:30px;">
         <div class="card-body" style="text-align:center; padding: 40px;">
-            <h1 style="font-size:2rem; color:#1a237e; margin-bottom:10px;">🏨 Sistema de Check-in de Hotel</h1>
+            <h1 style="font-size:2rem; color:#1a237e; margin-bottom:10px;"> Sistema de Check-in de Hotel</h1>
             <p style="color:#666; font-size:1rem;">Controle hóspedes, quartos, reservas e check-ins de forma simples, organizada e prática.</p>
             <p style="color:#999; font-size:0.85rem; margin-top:8px;">Kauã · Matrícula: 1203947</p>
         </div>
