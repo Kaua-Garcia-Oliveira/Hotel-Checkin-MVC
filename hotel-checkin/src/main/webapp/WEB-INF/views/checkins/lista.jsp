@@ -9,7 +9,7 @@
 </head>
 <body>
 <nav class="navbar">
-    <a class="navbar-brand" href="${pageContext.request.contextPath}/"><span>🏨</span> HotelSystem</a>
+    <a class="navbar-brand" href="${pageContext.request.contextPath}/"><span></span> HotelSystem</a>
     <ul class="navbar-nav">
         <li><a href="${pageContext.request.contextPath}/">Home</a></li>
         <li><a href="${pageContext.request.contextPath}/hospedes">Hóspedes</a></li>
@@ -20,14 +20,14 @@
 </nav>
 
 <div class="container">
-    <c:if test="${param.msg == 'checkin'}"><div class="alert alert-success">✅ Check-in realizado com sucesso!</div></c:if>
-    <c:if test="${param.msg == 'checkout'}"><div class="alert alert-success">🚪 Checkout realizado. Quarto liberado!</div></c:if>
+    <c:if test="${param.msg == 'checkin'}"><div class="alert alert-success"> Check-in realizado com sucesso!</div></c:if>
+    <c:if test="${param.msg == 'checkout'}"><div class="alert alert-success"> Checkout realizado. Quarto liberado!</div></c:if>
     <c:if test="${param.msg == 'cancelado'}"><div class="alert alert-success">Check-in cancelado.</div></c:if>
     <c:if test="${not empty erro}"><div class="alert alert-danger">${erro}</div></c:if>
 
     <div class="card">
         <div class="card-header">
-            <h2>✅ Check-ins</h2>
+            <h2> Check-ins</h2>
             <a href="${pageContext.request.contextPath}/checkins/novo" class="btn btn-warning">+ Novo Check-in</a>
         </div>
         <div class="card-body">
@@ -65,7 +65,7 @@
                             <c:if test="${c.status == 'ATIVO'}">
                                 <a href="${pageContext.request.contextPath}/checkins/checkout?id=${c.id}"
                                    class="btn btn-primary btn-sm"
-                                   onclick="return confirm('Confirmar checkout?')">🚪 Checkout</a>
+                                   onclick="return confirm('Confirmar checkout?')"> Checkout</a>
                             </c:if>
                             <a href="${pageContext.request.contextPath}/checkins/cancelar?id=${c.id}"
                                class="btn btn-danger btn-sm"
