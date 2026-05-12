@@ -9,7 +9,7 @@
 </head>
 <body>
 <nav class="navbar">
-    <a class="navbar-brand" href="${pageContext.request.contextPath}/"><span>🏨</span> HotelSystem</a>
+    <a class="navbar-brand" href="${pageContext.request.contextPath}/"><span></span> HotelSystem</a>
     <ul class="navbar-nav">
         <li><a href="${pageContext.request.contextPath}/">Home</a></li>
         <li><a href="${pageContext.request.contextPath}/hospedes">Hóspedes</a></li>
@@ -27,7 +27,7 @@
 
     <div class="card">
         <div class="card-header">
-            <h2>📅 Reservas</h2>
+            <h2> Reservas</h2>
             <a href="${pageContext.request.contextPath}/reservas/nova" class="btn btn-warning">+ Nova Reserva</a>
         </div>
         <div class="card-body">
